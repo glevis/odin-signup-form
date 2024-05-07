@@ -1,0 +1,14 @@
+body {
+    width: full;
+    height: full;
+    display: flex;
+}
+
+.banner-section {
+    width: 50%;
+    background: 100% url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+}
+
+.signup-section {
+    width: 50%;
+}
