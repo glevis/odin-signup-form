@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="page-content">
         <div class="banner-section">
             <div>
                 <img src="assets/odin-lined.png">
@@ -25,36 +26,57 @@
             <div class="form-section">
                 <form>
                     <h2>Let's do this!</h2>
-                    <label for="first_name">
-                        <span>First Name</span>
-                    </label>
-                    <input type="text" id="first_name">
-                    <label for="last_name">
-                        <span>Last Name</span>
-                    </label>
-                    <input type="text" id="last_name">
-                    <label for="email">
-                        <span>Email</span>
-                    </label>
-                    <input type="text" id="email">
-                    <label for="phone">
-                        <span>Phone Number</span>
-                    </label>
-                    <input type="text" id="phone">
-                    <label for="password">
-                        <span>Password</span>
-                    </label>
-                    <input type="password" id="password">
-                    <label for="confirmpass">
-                        <span>Confirm Password</span>
-                    </label>
-                    <input type="password" id="confirmpass">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="first_name">
+                                    <span>First Name</span>
+                                </label>
+                                <input type="text" id="first_name">
+                            </td>
+                            <td>
+                                <label for="last_name">
+                                    <span>Last Name</span>
+                                </label>
+                                <input type="text" id="last_name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">
+                                    <span>Email</span>
+                                </label>
+                                <input type="text" id="email">
+                            </td>
+                            <td>
+                                <label for="phone">
+                                    <span>Phone Number</span>
+                                </label>
+                                <input type="text" id="phone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">
+                                    <span>Password</span>
+                                </label>
+                                <input type="password" id="password">
+                            </td>
+                            <td>
+                                <label for="confirmpass">
+                                    <span>Confirm Password</span>
+                                </label>
+                                <input type="password" id="confirmpass">
+                            </td>
+                        </tr>
+                    </table>
                 </form>
             </div>
             <div class="create-section">
                 <button>Create Account</button>
                 <p>Already have an account? Log in</p>
             </div>
+        </div>
         </div>
     </body>
 </html>

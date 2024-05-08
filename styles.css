@@ -4,15 +4,20 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    margin: 0;
+}
+
+.page-content {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     margin: auto;
 }
 
 .banner-section {
-    width: 50%;
+    width: 40%;
     background: 100% url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,11 +25,12 @@ body {
 
 .banner-section > div {
     width: 100%;
-    height: 25%;
+    height: 15%;
     background: rgba(0, 0, 0, .6);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30vh;
 }
 
 .banner-section p {
@@ -36,12 +42,34 @@ body {
 
 .banner-section img {
     width: auto;
-    height: 90%;
+    height: 100%;
 }
 
 .signup-section {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    background: rgb(250, 250, 250);
+}
+
+.signup-section > div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.form-section {
+    flex: 2;
+    background: white;
+}
+
+tr {
+    display: flex;
+    gap: 40px;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
 }
