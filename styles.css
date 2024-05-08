@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse;
+    src: url("assets/Norse-Bold.otf");
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -9,8 +14,29 @@ body {
     width: 50%;
     background: 100% url("assets/halie-west-25xggax4bSA-unsplash.jpg");
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.banner-section > div {
+    width: 100%;
+    height: 25%;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section p {
+    margin: 0;
+    font-family: norse;
+    font-size: 125px;
+    color: white;
+}
+
+.banner-section img {
+    width: auto;
+    height: 90%;
 }
 
 .signup-section {
@@ -19,4 +45,3 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
