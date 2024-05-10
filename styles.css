@@ -51,6 +51,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background: rgb(250, 250, 250);
+    gap: 5vh;
 }
 
 .signup-section > div {
@@ -59,9 +60,20 @@ body {
     margin: 0;
 }
 
+.motivation-section {
+    display: flex;
+    align-items: end;
+}
+
+.motivation-section p {
+    font-size: 25px;
+    padding: 30px;
+}
+
 .form-section {
     flex: 2;
     background: white;
+    box-shadow:  1px 3px 4px lightgrey;
 }
 
 tr {
@@ -73,3 +85,4 @@ td {
     display: flex;
     flex-direction: column;
 }
+
